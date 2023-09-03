@@ -4,12 +4,9 @@
 
 # Create an empty list and add elements to it
 arr= []
-arr = [10, 20, 30, 40]
-print(arr)
-print()
-
 # Append an element to the array
 arr.append(50)
+arr.extend[10, 20, 30, 40]
 print("after appending", arr)
 print()
 
